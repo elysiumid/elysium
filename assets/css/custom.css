@@ -1,0 +1,305 @@
+/*
+File Name: 		custom.css
+Description:  You can add your custom CSS here and it will overwrite template styles
+*/
+/*# sourceMappingURL=maps/custom.css.map */
+.team-carousel__content>.slick-dots {
+    display: none;
+}
+.team-carousel__content>.slick-dots li {
+    display: none;
+}
+
+.team-carousel__content>.slick-dots li svg {
+    display: none;
+}
+
+.team-carousel__content>.slick-dots li {
+    display: none;
+}
+
+@media (min-width: 1200px) {
+    .team-carousel__content>.slick-dots li {
+        display: none;
+    }
+}
+
+.match-stats-links {
+    padding-left: 0;
+    list-style: none;
+    margin-bottom: 0;
+}
+
+.match-stats-links li a {
+    display: block;
+    width: 100%;
+    height: 34px;
+    line-height: 0;
+    border: 0;
+    border-radius: 0;
+    text-align: center;
+}
+
+@media (min-width: 1920px) {
+    .match-stats-links li a {
+        width: 100%;
+        height: 44px;
+        line-height: 38px;
+    border-width: 0;
+    }
+}
+
+.match-stats-links li a svg {
+    display: inline-block;
+    width: 12px;
+    height: 12px;
+    fill: #5e627e00;
+    transition: fill 300ms ease;
+}
+
+@media (min-width: 1920px) {
+    .match-stats-links li a svg {
+        width: 16px;
+        height: 16px;
+    }
+}
+
+.match-stats-links li a:hover,
+.match-stats-links li a.active {
+    border-color: #05BFDB;
+}
+
+.match-stats-links li a:hover svg,
+.match-stats-links li a.active svg {
+    fill: #fff;
+}
+
+@media (max-width: 991.98px) {
+    .match-stats-links--main {
+        text-align: center;
+        margin-bottom: 30px;
+    }
+}
+
+@media (min-width: 992px) {
+    .match-stats-links--main {
+        position: fixed;
+        top: 50%;
+        left: 70px;
+        transform: translateY(-50%);
+    }
+}
+
+.match-stats-links--main li {
+    display: inline-block;
+}
+
+@media (min-width: 992px) {
+    .match-stats-links--main li {
+        display: block;
+    }
+}
+
+.match-stats-links--main li+li {
+    position: relative;
+}
+
+@media (max-width: 991.98px) {
+    .match-stats-links--main li+li {
+        margin-left: 34px;
+    }
+}
+
+@media (min-width: 992px) {
+    .match-stats-links--main li+li {
+        margin-top: 38px;
+    }
+}
+
+@media (min-width: 1920px) {
+    .match-stats-links--main li+li {
+        margin-top: 50px;
+    }
+}
+
+.match-stats-links--main li+li:before {
+    position: absolute;
+    content: "";
+}
+
+@media (max-width: 991.98px) {
+    .match-stats-links--main li+li:before {
+        width: 100%;
+        top: 16px;
+        right: calc(100% + 4px);
+        border-top: 2px dotted #5e627e;
+    }
+}
+
+@media (min-width: 992px) {
+    .match-stats-links--main li+li:before {
+        bottom: calc(100% + 4px);
+        left: 16px;
+        height: 30px;
+        border-left: 2px dotted #5e627e;
+    }
+}
+
+@media (min-width: 1920px) {
+    .match-stats-links--main li+li:before {
+        bottom: calc(100% + 9px);
+        left: 20px;
+        height: 32px;
+        border-width: 4px;
+    }
+}
+
+.match-score .match-stats-links,
+.match-score-inline .match-stats-links {
+    padding-left: 0;
+    list-style: none;
+    margin-bottom: 0;
+}
+
+.match-score .match-stats-links li,
+.match-score-inline .match-stats-links li {
+    display: inline-block;
+}
+
+.match-score .match-stats-links li+li,
+.match-score-inline .match-stats-links li+li {
+    margin-left: 14px;
+}
+
+.match-score .match-stats-links li a,
+.match-score-inline .match-stats-links li a {
+    display: block;
+    width: 100%;
+    height: 34px;
+    line-height: 34px;
+    border: 0;
+    border-radius: 0;
+    text-align: center;
+}
+
+@media (min-width: 1920px) {
+
+    .match-score .match-stats-links li a,
+    .match-score-inline .match-stats-links li a {
+        width: 100%;
+        height: 44px;
+        line-height: 42px;
+        border-width: 3px;
+    }
+}
+
+.match-score .match-stats-links li a svg,
+.match-score-inline .match-stats-links li a svg {
+    display: inline-block;
+    width: 12px;
+    height: 12px;
+    fill: #5e627e;
+    transition: fill 300ms ease;
+}
+
+@media (min-width: 1920px) {
+
+    .match-score .match-stats-links li a svg,
+    .match-score-inline .match-stats-links li a svg {
+        width: 16px;
+        height: 16px;
+    }
+}
+
+.match-score .match-stats-links li a:hover,
+.match-score-inline .match-stats-links li a:hover {
+    border-color: #05BFDB;
+}
+
+.match-score .match-stats-links li a:hover svg,
+.match-score-inline .match-stats-links li a:hover svg {
+    fill: #fff;
+}
+
+.match-score .match-stats-links li:nth-child(1),
+.match-score-inline .match-stats-links li:nth-child(1) {
+    transition-delay: 0;
+}
+
+.match-score .match-stats-links li:nth-child(2),
+.match-score-inline .match-stats-links li:nth-child(2) {
+    transition-delay: 150ms;
+}
+
+.match-score .match-stats-links li:nth-child(3),
+.match-score-inline .match-stats-links li:nth-child(3) {
+    transition-delay: 250ms;
+}
+
+.match-score .match-stats-links li:nth-child(4),
+.match-score-inline .match-stats-links li:nth-child(4) {
+    transition-delay: 350ms;
+}
+
+@media (min-width: 992px) {
+    .match-score .match-stats-links li {
+        opacity: 0;
+        transform: translateY(20px);
+        transition: all 700ms ease;
+    }
+}
+
+.match-score-inline .match-stats-links li {
+    visibility: hidden;
+    opacity: 0;
+    transform: translateY(20px);
+    transition: all 700ms ease;
+}
+
+.match-score:hover .match-stats-links li,
+.match-score-inline:hover .match-stats-links li {
+    visibility: visible;
+    opacity: 1;
+    transform: translateY(0);
+    transition: all 700ms ease;
+}
+
+.match-score:hover .match-stats-links li:nth-child(1),
+.match-score-inline:hover .match-stats-links li:nth-child(1) {
+    transition-delay: 150ms;
+}
+
+.match-score:hover .match-stats-links li:nth-child(2),
+.match-score-inline:hover .match-stats-links li:nth-child(2) {
+    transition-delay: 250ms;
+}
+
+.match-score:hover .match-stats-links li:nth-child(3),
+.match-score-inline:hover .match-stats-links li:nth-child(3) {
+    transition-delay: 350ms;
+}
+
+.match-score:hover .match-stats-links li:nth-child(4),
+.match-score-inline:hover .match-stats-links li:nth-child(4) {
+    transition-delay: 450ms;
+}
+
+.match-stats-links--color-light li a {
+    border-color: rgba(255, 255, 255, 0.3);
+}
+
+.match-stats-links--color-light li a svg {
+    fill: rgba(255, 255, 255, 0.3);
+}
+
+@media (max-width: 991.98px) {
+    .match-stats-links--color-light li+li::before {
+        border-top-color: rgba(255, 255, 255, 0.3);
+    }
+}
+
+@media (min-width: 992px) {
+    .match-stats-links--color-light li+li::before {
+        border-left-color: rgba(255, 255, 255, 0.3);
+    }
+}

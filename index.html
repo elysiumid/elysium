@@ -9,34 +9,39 @@
   <!-- Title untuk tab -->
   <title>UNDAWN | ELYSIUM</title>
   <!-- Library CSS -->
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/feather-icons/dist/feather.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
+    integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
   <link rel="stylesheet" href="styles.css">
 </head>
 
 <body>
-  <header>
-    <h1>ELYSIUM</h1>
-  </header>
-  <main>
-    <section class="profile">
-      <img src="assets/img/ELYSIUM.gif" alt="Foto Profil Anda">
-      <h2>Join Us!</h2>
-      <ul class="social-links">
-        <li><a href="https://discord.gg/frsQVS6"><i data-feather="discord"></i> Discord Server</a></li>
-        <li><a href="https://www.instagram.com/username"><i data-feather="instagram"></i> Instagram</a></li>
-        <li><a href="https://twitter.com/username"><i data-feather="twitter"></i> Twitter</a></li>
-        <!-- Tambahkan lebih banyak link sosial media sesuai dengan kebutuhan -->
-      </ul>
-
-    </section>
-  </main>
-  <footer>
-    <p>&copy; 2023 Nama Anda</p>
-  </footer>
-  <script src="https://cdn.jsdelivr.net/npm/feather-icons/dist/feather.min.js"></script>
-  <script>
-    feather.replace(); // Menginisialisasi Feather Icons
-  </script>
+  <div class="fullscreen-bg">
+    <video loop muted autoplay poster="assets/img/ELYSIUM.gif" class="fullscreen-bg__video" style="width: 100%;">
+      <source src="assets/vid/13_September_2023.mp4" type="video/mp4">
+    </video>
+  </div>
+  <div class="content glass-card">
+    <header>
+      <h1 class="text-white shadow">ELYSIUM</h1>
+    </header>
+    <main>
+      <section class="profile">
+        <h2>Join Us!</h2>
+        <ul class="social-links">
+          <li><a href="https://discord.gg/frsQVS6"><i data-feather="discord"></i> Discord Server</a></li>
+          <li><a href="https://www.instagram.com/username"><i data-feather="instagram"></i> Instagram</a></li>
+          <li><a href="https://twitter.com/username"><i data-feather="twitter"></i> Twitter</a></li>
+          Tambahkan lebih banyak link sosial media sesuai dengan kebutuhan
+        </ul>
+      </section>
+    </main>
+    <footer>
+      <p>&copy; 2023 Nama Anda</p>
+    </footer>
+  </div>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js"
+    integrity="sha384-cuYeSxntonz0PPNlHhBs68uyIAVpIIOZZ5JqeqvYYIcEL727kskC66kF92t6Xl2V"
+    crossorigin="anonymous"></script>
 </body>
 
 </html>

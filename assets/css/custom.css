@@ -303,3 +303,13 @@ Description:  You can add your custom CSS here and it will overwrite template st
         border-left-color: rgba(255, 255, 255, 0.3);
     }
 }
+
+.logo {
+	transform: rotateY(45deg);
+	animation: rotateAnimation 1s linear infinite;
+}
+
+@keyframes rotateAnimation {
+	from {transform: rotateY(45deg);}
+	to {transform: rotateY(225deg);}
+}

@@ -1,0 +1,45 @@
+.media-group + .media-group {
+  margin-top: 10px;
+}
+.media-group .media-control {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 32px;
+  height: 32px;
+  background-color: #546e7a;
+  border: none;
+  border-radius: 7px;
+  color: rgba(255, 255, 255, 0.875);
+  overflow: hidden;
+  cursor: pointer;
+}
+.media-group .media-control::after {
+  content: '▶';
+  transform: rotate(0deg);
+  transition: transform 0.15s ease-out;
+  pointer-events: none;
+}
+.media-group[data-media-state="playing"] .media-control {
+  background-color: #4caf50;
+}
+.media-group[data-media-state="playing"] .media-control::after {
+  transform: rotate(90deg);
+}
+
+.float{
+	position:fixed;
+	width:60px;
+	height:60px;
+	bottom:40px;
+	right:40px;
+	background-color:#0C9;
+	color:#FFF;
+	border-radius:50px;
+	text-align:center;
+	box-shadow: 2px 2px 3px #999;
+}
+
+.my-float{
+	margin-top:22px;
+}

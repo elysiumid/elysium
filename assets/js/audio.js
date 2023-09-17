@@ -12,7 +12,7 @@ const getMediaGroupsByMedia = media => getControlsByMedia(media).map(control => 
 const stopAllMedia = () => allMedia.forEach(media => stop(media));
 
 let music = document.getElementById("music");
-music.volume = 0.1;
+music.volume = 0.5;
 document.addEventListener('click', e => {
   if (e.target && allControls.includes(e.target)) {
     const control = e.target;

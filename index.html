@@ -54,8 +54,13 @@
     <main class="site-content text-center" id="wrapper">
       <div class="site-content__center">
 
-        <h1 class="text-white landing-title"><span class="subtitle landing-subtitle">Welcome to </span>ELYSIUM UNDAWN
-          <span class="text-white subtitle landing-subtitle mt-2"><span class="text-info">197</span> Total
+        <h1 class="text-white landing-title"><span class="subtitle landing-subtitle">Welcome to </span><span
+            id="guild_name_dc">ELYSIUM</span> UNDAWN
+          <span class="text-white subtitle landing-subtitle mt-2"><span class="text-primary"
+              id="total_member_dc">197</span> Total
+            Members</span>
+          <span class="text-white subtitle landing-subtitle mt-2"><span class="text-success"
+              id="active_member_dc">197</span> Active
             Members</span>
         </h1>
       </div>
@@ -85,7 +90,7 @@
 
   <div class="media-group" data-media-state="stopped">
     <span>Music</span>
-    <button class="media-control float" data-target="#music"></button>
+    <button class="media-control float" id="btn_music" data-target="#music"></button>
   </div>
   <audio id="music" aria-valuenow="25" autoplay>
     <source src="assets/sound/DAWN – Lucjo (No Copyright Music).mp3" type="audio/mpeg">
@@ -115,6 +120,7 @@
   <script src="assets/js/init.js"></script>
   <script src="assets/js/custom.js"></script>
   <script src="assets/js/audio.js"></script>
+  <script src="assets/js/discordAPI.js"></script>
 
 </body>
 

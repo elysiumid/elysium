@@ -1,4 +1,4 @@
-const serverId = "frsQVS6";
+const serverId = "kUT7mwM6JB";
 const apiUrl = `https://discord.com/api/v9/invites/${serverId}?with_counts=true&with_expiration=true`;
 
 fetch(apiUrl, { method: "GET", headers: { "Content-Type": "application/json" }})
